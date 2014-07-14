@@ -8,50 +8,30 @@ package com.groovy.secondday
 
 def textCorpus =
         """
-Am
-А куда сегодня еду я?
-Dm
-А чтоб найти сегодня тебя.
-C
-А со мной едет лучший друг,
-E
-Hам хочется найти подруг.
+Life, it seems, will fade away
+Drifting further every day
+Getting lost within myself
+Nothing matters, no one else
 
-А на улице тепло,
-А едем мы уже давно,
-А где найти девчонок нам,
-Двум весёлым пацанам?
+I have lost the will to live
+Simply nothing more to give
+There is nothing more for me
+Need the end to set me free
 
-Dm G Am
-Hу где же вы, девчонки, девчонки, девчонки,
-Dm G Am
-Короткие юбчонки, юбчонки, юбчонки ?
+Things not what they used to be
+Missing one inside of me
+Deathly lost, this can't be real
+Cannot stand this hell I feel
 
-А, как обидно пацанам.
-А, что же, что же делать нам?
-А, где девчонок отыскать,
-А, чтобы их очаровать?
+Emptiness is filling me
+To the point of agony
+Growing darkness taking dawn
+I was me, but now he's gone
 
-"Эй!" - вслед девчонкам я кричу, -
-"Эй, садись, девчонки, прокачу!" -
-Hо не заметят нас они,
-И опять в машине мы одни.
-
-Hу где же вы, девчонки, девчонки, девчонки,
-Короткие юбчонки, юбчонки, юбчонки ?
-
-А на улице темно,
-А люди уже спят давно,
-А только мы одни не спим,
-Ай, познакомится хотим.
-
-А нет девчонок - вот беда.
-А нам уже домой пора,
-Hо завтра вечером опять
-Будем мы любовь искать.
-
-Hу где же вы, девчонки, девчонки, девчонки,
-Короткие юбчонки, юбчонки, юбчонки ?
+No one but me can save myself, but it's too late
+Now I can't think, think why I should even try
+Yesterday seems as though it never existed
+Death greets me warm, now I will just say goodbye
 """
 List<String> words = textCorpus.tokenize()
 Map<String, Integer> wordFrequency = [:]
