@@ -8,3 +8,6 @@
 # IDE #
 *.iml
 .idea/
+
+# "temporary" build files
+/target
